@@ -6,3 +6,4 @@ testingbot
 browserstack
 coverage-final.json
 /.project
+/npm-debug.log
