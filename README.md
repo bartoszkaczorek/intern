@@ -3,7 +3,8 @@
 ## About
 
 This is a fork of intern with few features added/fixed:
-- Added log4js logs to intern Proxy server
+- Added projectRoot option to Cobertura reporter 
+- Added winston logs to intern Proxy server
 - Separated proxy settings for intern Proxy server & dig dug tunnel
 
 # Separate proxy settings for intern Proxy Server
@@ -13,6 +14,17 @@ You can configure intern Proxy server options using:
 {
  internServerOptions: {
   proxy: "yourProxy"
+ }
+}
+
+# Winston logs
+
+{
+ internServerOptions: {
+  "logger" : {
+   "console" : true,
+   "filename" : "your-file.log"
+   }
  }
 }
 
