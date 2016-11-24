@@ -1,6 +1,6 @@
 {
   "name": "intern",
-  "version": "3.3.2",
+  "version": "3.3.2-fixed",
   "main": "main",
   "description": "Intern. A next-generation code testing stack for JavaScript.",
   "repository": {
@@ -18,7 +18,9 @@
     "istanbul": "0.4.1",
     "leadfoot": "~1.6.12",
     "mimetype": "0.0.8",
-    "source-map": "0.1.33"
+    "source-map": "0.1.33",
+	"winston": "2.3.0",
+	"date-format": "0.0.2"    
   },
   "devDependencies": {
     "intern": "3.0.6"
