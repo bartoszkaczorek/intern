@@ -1,6 +1,6 @@
 {
   "name": "intern",
-  "version": "3.4.1",
+  "version": "3.4.1-fixed",
   "main": "./main.js",
   "types": "./typings/intern/intern.d.ts",
   "description": "Intern. A next-generation code testing stack for JavaScript.",
@@ -23,6 +23,8 @@
     "mimetype": "0.0.8",
     "platform": "1.3.1",
     "source-map": "0.1.33",
+	"winston": "2.3.0",
+	"date-format": "0.0.2",
     "@types/chai": "3.4.34",
     "@types/node": "6.0.48"
   },

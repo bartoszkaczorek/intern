@@ -9,3 +9,4 @@ coverage-final.json
 benchmark.json
 baselines.json
 *.tgz
+/.project
